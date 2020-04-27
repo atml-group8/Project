@@ -1,0 +1,16 @@
+#@title Initialise Experiment { form-width: "200px" }
+
+params = ModelParameters(
+    is_rnn_enc=True,
+    is_rnn_dec=True,
+    embedding_dim=100,
+    lstm_layers=4,
+)
+
+experiment = Experiment(
+    name="experiment12",
+    data_size=50,
+    use_WMT=True,
+    params=params,
+    learning_rate=0.0003
+)
