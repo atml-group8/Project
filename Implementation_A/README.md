@@ -2,6 +2,7 @@
 
 1. Load the ipynb file into Google Colaboratory.
 2. In the Paths cell, adjust WORK_DIR to point to the location of the project inside your Google drive. It is assumed that in this path, you have the following directory tree (where the experiment directories' names are arbitrary):
+```
 WORK_DIR
 ├───data
 │    ├───Tatoeba
@@ -15,6 +16,7 @@ WORK_DIR
     │   └───encoder
     ├───experiment02
     └───experiment03
+```
 3. Run all the cells up to the Run Pipeline section.
 4. Mount the Google drive.
 5. The Initialise Experiment cell controls the parameters of the experiment. Adjust them before running the cell.
