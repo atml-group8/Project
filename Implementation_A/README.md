@@ -27,3 +27,4 @@ WORK_DIR
 
 The repository contains completed experiments.
 Each experiment directory contains a params.txt file. The content of this file can be copied to replace the content of the Initialise Experiment cell. Consequently, after initialising the experiment and calling experiment.loadModel(), the experiment should be loaded.
+Most experiments listed in the report are present in this repository, however some experiments are missing since their files are too large (even after compression).
